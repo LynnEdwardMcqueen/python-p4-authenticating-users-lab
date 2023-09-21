@@ -1,6 +1,6 @@
 import flask
 
-from app import app
+from app import app,test_array
 from models import User
 
 app.secret_key = b'a\xdb\xd2\x13\x93\xc1\xe9\x97\xef2\xe3\x004U\xd1Z'
